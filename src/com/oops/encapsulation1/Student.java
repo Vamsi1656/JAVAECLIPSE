@@ -5,11 +5,14 @@ public class Student {
 	int rollno;
 	String name;
 	boolean isattended;
-	public boolean getisattended() {
-		return isattended;
+	
+	
+	public void setStudentAttandence() {
+		System.out.println("Teacher allocated attendance to students");
 	}
-	public void setStudentatte(boolean isattended) {
-		this.isattended = isattended;
+	
+	public boolean getStudentAttandence(boolean flag) {
+		System.out.println("Tecaher access attandance to students");
+		return flag;
 	}
-
 }
