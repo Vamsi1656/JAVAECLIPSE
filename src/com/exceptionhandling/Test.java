@@ -7,6 +7,9 @@ package com.exceptionhandling;
 // Finally : Whatever it happens wheather the exception is there or not there finally block is 
 //           executed.
 
+// Throw : It is used when the user handle the exception by using  try and catch and he is return the exception 
+//         to java.It happens with throw keyword.
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -14,7 +17,7 @@ public class Test {
 		
 		int a =5;
 		int b=0;
-		int result=0;
+	    int result;
 		
 		try {
 			result=a/b;
