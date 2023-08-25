@@ -1,13 +1,12 @@
 package com.fourpillarsofOOPS;
 
-public class Account {
+public class Account extends SimpleAC {
 	
 	private int acc_id;
 	
 	private String acc_name;
 	
 	private double acc_bal;
-	
 
 	public int getAcc_id() {
 		return acc_id;
@@ -32,11 +31,11 @@ public class Account {
 	public void setAcc_bal(double acc_bal) {
 		this.acc_bal = acc_bal;
 	}
-	public double cal_age() {
 	
-		return acc_bal;
+	public double cal_bal() {
+		double bal=acc_bal-min_bal;
+		return bal;
 		
 	}
-	
 
 }
