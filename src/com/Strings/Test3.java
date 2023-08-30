@@ -21,7 +21,7 @@ public class Test3 {
 //		
 //		System.out.println(s1.endsWith("Llo"));
 		
-		System.out.println(s1.trim()); // It removes the white spaces in starting and ending.
+		System.out.println(s1.trim()); // It removes the white spaces in starting and ending	.
 		
 		
 		System.out.println(s1.length());  // Length method shows how many characters are in the string.
