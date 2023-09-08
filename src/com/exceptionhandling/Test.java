@@ -17,7 +17,7 @@ public class Test {
 		
 		int a =5;
 		int b=0;
-	    int result;
+	    int result=0;
 		
 		try {
 			result=a/b;
