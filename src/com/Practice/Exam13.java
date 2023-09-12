@@ -6,7 +6,7 @@ public class Exam13 {
 //		int a=100;
 //		System.out.println(a.toString());
 		
-		String s="20";
+		String s="200000 ";
 		
 		String s1="Hello";
 		
