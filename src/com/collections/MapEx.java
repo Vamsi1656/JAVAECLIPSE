@@ -1,6 +1,6 @@
 package com.collections;
 
-import java.util.Collections;
+import java.util.Collection;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -29,10 +29,10 @@ public class MapEx {
 		
 		// Retrieval of keys from the map
 		
-//		Set<Integer> keys=m.keySet();
-//		for(Integer key : keys) {
-//			System.out.println(key);
-//		}
+		Collection<Integer> keys=m.keySet();
+		for(Integer key : keys) {
+			System.out.println(key);
+		}
 		
 		// Retrieval of values from the map
 		
@@ -84,15 +84,17 @@ public class MapEx {
 		// first used the keyset method and get the keys and iterate the keys.(or)
 		// We can use entry set also to return the both keys and values.
 		
-		Set<Entry<Integer,String>> entries=m.entrySet();
-		for(Entry<Integer,String>entry:entries) {
-			Integer key=entry.getKey();
-			String values=entry.getValue();
-			System.out.println(key+">>>>>>>"+values);
-//			System.out.println(entry);
-		}
+//		Set<Entry<Integer,String>> mf=m.entrySet();
+//		for(Entry<Integer,String>entry:mf) {
+//			Integer key=entry.getKey();
+//			String values=entry.getValue();
+//			System.out.println(key+">>>>>>>"+values);
+////			System.out.println(entry);
+//		}
 		
 		
+		
+	
 		
 		
 	}

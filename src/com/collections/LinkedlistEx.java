@@ -39,6 +39,8 @@ public class LinkedlistEx {
 		
 		ll.removeLastOccurrence("Virat");
 		System.out.println(ll);
+		
+		
 
 	}
 

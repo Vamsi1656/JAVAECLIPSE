@@ -1,8 +1,9 @@
 package com.collections;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class ArraylistEx {
 
@@ -13,6 +14,7 @@ public class ArraylistEx {
 //		Integer[] arr=new Integer[] {10,20,30,40,50};
 //		ArrayList<Integer> a=new ArrayList<>(Arrays.asList(arr));
 		
+//		ArrayList<Integer> a=new ArrayList<>();
 		ArrayList<Integer> a=new ArrayList<>();
 		
 		a.add(1);             // After adding min one element the capacity increses to 10.
