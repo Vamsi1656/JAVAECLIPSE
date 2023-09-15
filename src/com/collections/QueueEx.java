@@ -23,17 +23,26 @@ public class QueueEx {
 		
 		//retrieval of elements
 		
-		System.out.println(pq.peek());
+//		System.out.println(pq.peek());
 		
 		// removal of elements-poll,remove
-		
-		System.out.println(pq.poll());
+//		
+//		System.out.println(pq.poll());
 //		System.out.println(pq.remove(10));
-		System.out.println(pq);
-		
+//		System.out.println(pq);
+//		
 		// verification of elements
 		
-		System.out.println(pq.contains(6));
+//		System.out.println(pq.contains(6));
+		
+//		for(Integer elements:pq) {
+//			System.out.println(elements);
+//		}
+//		
+		while(!pq.isEmpty()) {
+			System.out.println(pq.poll());
+		}
+		
 		
 
 	}
