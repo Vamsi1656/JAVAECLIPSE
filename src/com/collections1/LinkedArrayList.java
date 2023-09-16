@@ -14,7 +14,7 @@ public class LinkedArrayList {
 		
 		ll.add(2, 106);
 		
-		ll.
+		
 		System.out.println(ll);
 		
 		
