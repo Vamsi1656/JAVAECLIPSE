@@ -1,22 +1,29 @@
 package com.collections;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.TreeSet;
 
 public class SetEx {
 
 	public static void main(String[] args) {
-		HashSet<String> hs=new HashSet<>();
-		hs.add("Vasu Anna");
-		hs.add("Naveen Anna");
-		hs.add("Vamsi");
-		hs.add("Siva");
-		hs.add("Koti");
+		new Object(); // It creates dummy object in places of values in Hashmap.
+//		HashSet<String> hs=new HashSet<>(); // Internally uses HashMap
+//		LinkedHashSet<String> lhs=new LinkedHashSet<>(); // Internally uses LinkedHashMap
+		TreeSet<String> ts=new TreeSet<>();
+		ts.add("Vasu Anna");  // Values are stored in keys place in Hashmap
+		ts.add("Naveen Anna");
+		ts.add("Vamsi");
+		ts.add("Siva");
+		ts.add("Koti");
 		
-		System.out.println(hs);
+		System.out.println(ts);
+//		
+//		System.out.println(ts.descendingSet());
+//		
+//		System.out.println(ts.subSet("Koti", "Vasu Anna"));
+//		
+		System.out.println(ts.subSet("Koti", true, " Vasu Anna", false));
 		
-		
-		System.out.println(hs.contains("Vamsi"));
+
 		
 	}
 

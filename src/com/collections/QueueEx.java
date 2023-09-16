@@ -43,6 +43,7 @@ public class QueueEx {
 			System.out.println(pq.poll());
 		}
 		
+		pq.element();
 		
 
 	}
