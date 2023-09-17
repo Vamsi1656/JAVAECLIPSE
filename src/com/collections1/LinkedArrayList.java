@@ -27,6 +27,16 @@ public class LinkedArrayList {
 		
 		System.out.println(ll1);
 		
+//		for(Object hi:ll) {
+//			System.out.println(hi);
+//		}
+		
+		ll.addAll(ll1);
+		
+		System.out.println(ll);
+		
+		ll.spliterator();
+		
 	}
 
 }
