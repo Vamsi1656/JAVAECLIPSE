@@ -23,7 +23,11 @@ public class Test {
 		
 		sb.insert(5, "Vamsi");
 		
+//		sb.reverse();
+		
 		System.out.println(sb);
+		
+		
 
 	}
 
