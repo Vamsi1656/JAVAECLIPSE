@@ -21,9 +21,15 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		
-		Test1 t=new Test1();
-		Test1.Test2 t2=t.new Test2();
-		t2.display();
+//		Test1 t=new Test1();
+//		Test1.Test2 t2=t.new Test2();
+//		t2.display();
+		
+		
+		// Outerclass.innerclass t=new Innerclass.new Outerclass
+		
+		Test1.Test2 t=new Test1().new Test2();
+		t.display();
 	}
 
 }
